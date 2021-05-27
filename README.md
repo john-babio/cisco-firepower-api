@@ -10,4 +10,5 @@ Inside of the python Script Change:
 ## Powershell Script : get-fp-device-list.ps1 
 This powershell script will give you a list of firepower devices attached to your FirePower Manager. Fill in the Username, password, servername, and domain uuid. You can retrieve the domain uuid by using the api-explorer page of your firepower manager.
 
-
+## Powershell Script : fmc-packet-transfer.ps1 
+This powershell script will change the packet transfer settings in FMC for all sensors. This is usefull if the packet capture after a snort signature is triggered is not needed. Fill in the Username, password, servername, and domain uuid. You can retrieve the domain uuid by using the api-explorer page of your firepower manager.
